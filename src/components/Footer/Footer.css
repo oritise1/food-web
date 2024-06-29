@@ -1,0 +1,38 @@
+.footer{
+    width: 1214px;
+    height: 500px;
+    background-color: #474747;
+    padding: 5% 5%;
+    margin-top: 10%;
+}
+.top {
+    display: grid;
+    grid-template-columns: 20% 14% 33%;
+    column-gap: 10%;
+}
+.col{
+    width: 230px;
+    height: 70px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #adb29e;
+}
+.list1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #fff;
+    display: inline;
+}
+li{
+    color:#dbdfd0;
+    list-style: none;
+    margin-bottom: 20px;
+}

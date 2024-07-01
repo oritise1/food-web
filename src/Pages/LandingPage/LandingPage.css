@@ -1,0 +1,51 @@
+.hero{
+    width: 100%;
+    margin-top: 80px;
+}
+.heroText{
+    width: 590px;
+    height: 312px;
+    position: absolute;
+    text-align: center;
+}
+.heroSpan{
+    width: 590px;
+    height: 312px;  
+    display: flex;
+    margin: -38% 29%;
+    position: absolute;
+    border-radius: 50%;
+    background-image: radial-gradient(closest-side, white 60% ,rgba(255, 253, 253, 0.6), rgba(255, 243, 243, 0.2));
+}
+.Hero1{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 95px;
+    line-height: 80px;
+    margin-top: auto;
+}
+.Hero2{
+    width: 485px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+    margin-top: -40px;
+    margin-left: 60px;
+}
+.btnHero1{
+    width: 147px;
+    height: 48px;
+    border-radius: 120px;
+    cursor: pointer;
+    background-color: #ad343e;
+    margin-right: 3%;
+}
+.btnHero2{
+    width: 147px;
+    height: 48px;
+    border-radius: 120px;
+    cursor: pointer;
+}

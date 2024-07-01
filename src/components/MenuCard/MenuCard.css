@@ -1,0 +1,8 @@
+.cards{
+    width: 235px;
+    height: 230px;
+    background-color: #dbdfd0;
+    border-radius: 5%;
+    text-align: center;
+    padding: 54px 25px;
+}

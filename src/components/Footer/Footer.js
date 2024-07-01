@@ -5,6 +5,10 @@ import { ReactComponent as Twitter } from '../../images/Twitter.svg'
 import { ReactComponent as Facebook } from '../../images/Facebook.svg'
 import { ReactComponent as Insta } from '../../images/Insta.svg'
 import { ReactComponent as Github } from '../../images/Github.svg'
+import { ReactComponent as Footer1 } from '../../images/FooterImg1.svg'
+import { ReactComponent as Footer2 } from '../../images/FooterImg2.svg'
+import { ReactComponent as Footer3 } from '../../images/FooterImg3.svg'
+import { ReactComponent as Footer4 } from '../../images/FooterImg4.svg'
 
 const Footer = () => {
   return (
@@ -23,29 +27,42 @@ const Footer = () => {
         </div>
         <div className='list1'>
           <ul>
-            <h3>Pages</h3>
-            <li>Home</li>
-            <li>About</li>
-            <li>Menu</li>
-            <li>Pricing</li>
-            <li>Blog</li>
-            <li>Contact</li>
-            <li>Delivery</li>
+          <h3>Pages</h3>
+            <li className='list2'>Home</li>
+            <li className='list2'>About</li>
+            <li className='list2'>Menu</li>
+            <li className='list2'>Pricing</li>
+            <li className='list2'>Blog</li>
+            <li className='list2'>Contact</li>
+            <li className='list2'>Delivery</li>
           </ul>
         </div>
         <div className='list1'>
         <ul>
-          <h3>Utility Pages</h3>
-            <li>Start Here</li>
-            <li>Styleguide</li>
-            <li>Password Protected</li>
-            <li>404 Not Found</li>
-            <li>Licence</li>
-            <li>Changelog</li>
-            <li>View More</li>
+        <h3>Utility Pages</h3>
+            <li className='list2'>Start Here</li>
+            <li className='list2'>Styleguide</li>
+            <li className='list2'>Password Protected</li>
+            <li className='list2'>404 Not Found</li>
+            <li className='list2'>Licence</li>
+            <li className='list2'>Changelog</li>
+            <li className='list2'>View More</li>
           </ul>
         </div>
+        <div>
+          <h3 style={{color:'#fff'}}>
+            Follow Us On Instagram
+          </h3>
+          <div className='foot'>
+              <div><Footer1 style={{borderRadius:'7%'}} /></div>
+              <div><Footer2 /></div>
+              <div><Footer3 /></div>
+              <div><Footer4 style={{borderRadius:'5%'}} /></div>
+          </div>
         </div>
+        </div>
+        <div style={{width:'95%',height:'1px', backgroundColor:'#414536', marginTop:'90px'}}></div>
+        <p className='copy'> Copyright &copy; 2023 Hashtag Developer. All Rights Reserved</p>
     </div>
   )
 }

@@ -1,12 +1,13 @@
 import './App.css';
-import Footer from './components/Footer/Footer';
-import NavBar from './components/NavBar/NavBar';
+import LandingPage from './Pages/LandingPage/LandingPage';
+import MenuCard from './components/MenuCard/MenuCard';
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Footer />
+      <LandingPage />
+      <MenuCard />
     </div>
   );
 }

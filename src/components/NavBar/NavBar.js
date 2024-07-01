@@ -10,7 +10,6 @@ import HeadLogo from '../../images/HeadLogo.svg'
 
 const NavBar = () => {
   return (
-    <div className='navbar'>
         <div className='topbar'>
             <div className='info'>
                 <Call className='img'/>
@@ -42,8 +41,6 @@ const NavBar = () => {
                 </div>
             </div>
         </div>
-      
-    </div>
   )
 }
 

@@ -3,6 +3,7 @@ import './LandingPage.css';
 import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/NavBar/NavBar';
 import { ReactComponent as HeroImg} from '../../images/HeroImg.svg'
+import MenuBar from '../../components/MenuBar/MenuBar';
 
 const LandingPage = () => {
   return (
@@ -25,6 +26,7 @@ const LandingPage = () => {
           </div>
           </span>
         </div>
+        <MenuBar />
         <Footer />
       
     </div>
